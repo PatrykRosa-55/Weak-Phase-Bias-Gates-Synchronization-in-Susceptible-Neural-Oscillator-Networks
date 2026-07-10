@@ -12,20 +12,30 @@ The models are phenomenological and phase-only. They do **not** model membrane v
 
 ## Repository structure
 
-The repository contains three main simulation scripts:
+The repository is organized into three module folders. Each folder contains the corresponding Python script, exported CSV files, and its own `figures/` folder.
 
 ```text
-kuramoto_phase_forcing.py
-kuramoto_phase_disruption.py
-psmh_phase_ignition.py
-```
-
-These scripts correspond to the three supplementary methods modules:
-
-```text
-Supplementary Methods 1 — stochastic phase-forcing model
-Supplementary Methods 2 — phase disruption and maintenance simulations
-Supplementary Methods 3 — phase-ignition and state-gated synchrony simulations
+.
+├── README.md
+├── LICENSE
+├── Script 1/
+│   ├── kuramoto_phase_forcing.py
+│   ├── *.csv
+│   └── figures/
+│       ├── *.png
+│       └── *.html
+├── Script 2/
+│   ├── kuramoto_phase_disruption.py
+│   ├── *.csv
+│   └── figures/
+│       ├── *.png
+│       └── *.html
+└── Script 3/
+    ├── psmh_phase_ignition.py
+    ├── *.csv
+    └── figures/
+        ├── *.png
+        └── *.html
 ```
 
 ## Requirements
@@ -270,4 +280,18 @@ Terms such as `phase-forcing`, `phase-biasing`, `driver-locking`, `lock-like syn
 
 ## Citation
 
-If using or reusing this code, cite the associated manuscript.
+If using or reusing this code, CSV outputs, or figures, please cite the associated manuscript:
+
+Rosa, P. (2026). Weak Phase-Bias Gates Synchronization in Susceptible Neural Oscillator Networks.
+
+A DOI or journal citation will be added after publication.
+
+## License
+
+This repository is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt the materials in this repository, including code, CSV outputs, figures, and documentation, provided that appropriate credit is given.
+
+Author: Patryk Rosa
+Year: 2026
+License: CC BY 4.0
