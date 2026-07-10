@@ -1,0 +1,10 @@
+key,value
+script_version,2.0.3-closed-loop-delay-fixed
+script,kuramoto_phase_disruption.py
+python,"3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]"
+matplotlib_version,3.10.8
+scipy_version,1.17.0
+platform,Windows-11-10.0.26200-SP0
+cpu_count,8
+workers,4
+code_sha256,e38579a1d8d1b65ae2b0dfdc6165f5069fabc9eba1651f2af1faeacd7572ae12

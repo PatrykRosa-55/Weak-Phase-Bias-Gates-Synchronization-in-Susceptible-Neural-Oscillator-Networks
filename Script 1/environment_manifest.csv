@@ -1,0 +1,2 @@
+timestamp_utc,script_version,script_name,python_version,numpy_version,pandas_version,scipy_version,matplotlib_version,platform,cpu_count,workers,code_sha256
+2026-07-10T08:39:51.302630+00:00,1.3.1-audit-clean,kuramoto_phase_forcing_audit_clean.py,"3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",2.4.1,2.3.3,1.17.0,3.10.8,Windows-11-10.0.26200-SP0,8,4,5571fbd5e6f4db327b4b8c1c5b6cb49fc144fb7a26c15b2ccf32be84bb497f52

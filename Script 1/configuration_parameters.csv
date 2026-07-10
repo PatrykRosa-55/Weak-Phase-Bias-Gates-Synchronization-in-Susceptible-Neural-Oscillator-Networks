@@ -1,0 +1,17 @@
+parameter,value
+n_oscillators,96.0
+duration_s,12.0
+dt,0.005
+burn_in_s,2.0
+n_replicates,24.0
+scan_replicates,24.0
+robustness_replicates,24.0
+workers,4.0
+seed,1234.0
+base_k_cycles_per_s,0.72
+forcing_strength_cycles_per_s,0.12
+phase_diffusion_cycles_per_sqrt_s,0.035
+natural_frequency_sd_hz,0.75
+individual_forcing_log_sd,0.0
+lock_threshold,0.55
+strong_lock_threshold,0.7
